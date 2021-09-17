@@ -1,0 +1,283 @@
+ASSIGNMENT : 2
+
+----------------------------------------------------------------------
+Answer : 01
+
+Different types of operators in Dart:
+
+•	Arithmetic Operators.
+Example:
+
+void main()
+{
+    int a = 2;
+    int b = 3;
+ 
+    // Addition of a and b
+    var c = a + b;
+    print("Sum of a and b is $c");
+ 
+    // Subtraction a and b
+    var d = a - b;
+    print("The difference between a and b is $d");
+ 
+    // Multiplication of a and b
+    var f = a * b;
+    print("The product of a and b is $f");
+ 
+    // Division of a and b
+    var g = b / a;
+    print("The quotient of a and b is $g");
+ 
+    // Using (~/) to divide a and b
+    var h = b~/ a;
+    print("The quotient of a and b is $h");
+ 
+    // Remainder of a and b
+    var i = b % a;
+    print("The remainder of a and b is $i");
+}
+
+
+•	Relational Operators.
+Example:
+
+void main()
+{
+    int a = 2;
+    int b = 3;
+ 
+    // Greater between a and b
+    var c = a > b;
+    print("a is greater than b is $c");
+ 
+    // Smaller between a and b
+    var d = a < b;
+    print("a is smaller than b is $d");
+ 
+    // Greater than or equal to between a and b
+    var e = a >= b;
+    print("a is greater than b is $e");
+ 
+    // Less than or equal to between a and b
+    var f = a <= b;
+    print("a is smaller than b is $f");
+ 
+    // Equality between a and b
+    var g = b == a;
+    print("a and b are equal is $g");
+}
+
+
+•	Logical Operators.
+Example:
+
+void main()
+{
+    int a = 5;
+    int b = 7;
+ 
+    // Using And Operator
+    bool c = a > 10 && b < 10;
+    print(c);
+ 
+    // Using Or Operator
+    bool d = a > 10 || b < 10;
+    print(d);
+ 
+    // Using Not Operator
+    bool e = !(a > 10);
+    print(e);
+}
+-----------------------------------------------------------
+
+Answer : 02
+
+void main(){
+print('Question:02');
+  print("");
+  var a = 2 ;
+  var b = 1 ;
+  
+  var result =(--a - --b + ++b + b--);
+  print('Var a=$a');
+  print('Var b=$b');
+  print ('Result=$result');
+  print('');
+  print('Explain the output at each stage:');
+  print('c=${--a}');
+  print('d=${--a - --b}');
+  print('e=${--a - --b + ++b}');
+  print('f=${--a - --b + ++b + b--}');
+}
+--------------------------------------------------------------------------
+
+Answer : 03
+
+
+void main(){
+print('Question:03');
+  print('');
+  var ticket = 600;
+  var total = 5;
+  
+  var result= (ticket*total);
+  print('Ticket Price:${ticket}');
+  print('No Of Ticket:${total}');
+  print('Total:${result}');
+ }
+--------------------------------------------------------------------
+
+ANSWER : 04
+
+void main() {
+
+  print('Question:04');
+  print('');
+  List<int> first = [1,2,3,4,5,6,7];
+ List<int> second = [3,5,6,7,9,10];
+ List<int> difference = first.toSet().difference(second.toSet()).toList();
+print('First List:$first');
+  print('Second List:$second');
+  
+  print('Output:${difference.toList()}');
+}
+
+------------------------------------------------------------------------------
+
+ANSWER : 06
+DATA TYPES SUPPORTED IN DART :
+
+void main() {
+
+  
+ print ('DATA TYPES SUPPORTED IN DART :');
+print('1: Number');
+print('Example:');
+
+   // declare an integer
+   int num1 = 2;             
+       
+   // declare a double value
+   double num2 = 1.5;  
+  
+   print(num1);
+   print(num2);
+   var a1 = num.parse("1");  
+   var b1 = num.parse("2.34");  
+     
+   var c1 = a1+b1;   
+   print("Product = ${c1}"); 
+  
+  print("------------------------------------");
+
+
+print('2: Strings:');
+print('Example:');
+
+  String string = 'R' 'for' 'Rehman'; 
+    String str = 'Coding is '; 
+    String str1 = 'Fun'; 
+    print (string);  
+    print (str + str1);
+
+    
+  print("------------------------------------");
+  
+print('3: Booleans');
+print('Example:');
+
+
+  bool val = (str==str1);
+  print (val);  
+  
+    
+  print("------------------------------------");
+
+print('4: List');
+print('Example:');
+  List<int> intArr = [1,2,3,4,5];
+print(intArr);
+
+  
+    
+  print("------------------------------------");
+  
+print('5: Map');
+print('Example:');
+ 
+  Map gfg = new Map(); 
+  gfg['First'] = 'R'; 
+  gfg['Second'] = 'For'; 
+  gfg['Third'] = 'Rehman';
+  print(gfg); 
+
+}
+---------------------------------------------------------------------------
+
+  ANSWER : 10
+
+void main(){
+ print('Question:10');
+  print('Legeal Variable:' );
+  print('The rules and conventions for naming your variables can be summarized as follows: Variable names are case-sensitive. A variables name can be any legal identifier — an unlimited-length sequence of Unicode letters and digits, beginning with a letter, the dollar sign or the underscore character " _ ".');
+  print('------------------------------------');
+  print('Illegeal Variable:' );
+  print('A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ) Variable names are case-sensitive (age, Age and AGE are three different variables)');
+  
+ }
+
+-------------------------------------------------------------------------------
+ANSWER : 11
+
+void main(){
+  
+    print('Question:11');
+    String str = 'hyderabad';
+    String result = str.replaceAll('hyder', 'islam');
+     
+    print(result);
+  
+}
+
+----------------------------------------------------------------------------------
+
+
+  ANSWER : 12
+ELECTRICITY  BILL
+
+void main() 
+{
+  print("QUESTION 12:");
+  print("Electricity BILL");
+  
+  var customerName = "Abdul Rehman Siddiqui";
+  print("Customer Name = $customerName");
+  
+  String billingMonth = "September";
+  print("Billing Month = $billingMonth");
+  
+  int num1 = 1000;
+  print("Total Units = $num1");
+  
+  int num2 = 800;
+  print("Units Showed in Meter = $num2");
+  
+  var d = num1 - num2;
+    print("Total Units Consumed = $d");
+  
+  int unitCharge = 22;
+  print("Charges Per Unit = $unitCharge");
+  
+  // as required in question
+  
+  var totalAmount = d*unitCharge;
+  print("Net Amount Payable within Due Date = $totalAmount");
+  
+  int num4 = 200;
+  print("Late Payment Surcharge = $num4");
+  
+  var totalAmountafterDate = totalAmount + num4;
+  print("Net Amount Payable After Due Date = $totalAmountafterDate");
+}
+-------------------------------------------------------------------------------------
