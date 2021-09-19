@@ -214,6 +214,34 @@ print('Example:');
 
 }
 ---------------------------------------------------------------------------
+ANSWER : 07
+
+void main(){
+    print('Question:07');
+  var i = 7;
+  for(var i=0;i<=10;i++){
+    print("7 X ${i} = ${7*i}");
+  }
+ 
+}
+-------------------------------------------------------------------
+ANSWER : 08
+
+void main(){
+ print('Question:08');
+  var user = "hammadjawed@gmail.com";
+  var pass ="hammad123";
+  var correctpass ="hammad123";
+  
+  if(pass == correctpass){
+    print("you intered the correct password");
+  }
+  else{
+    print("you intered the wrong password");
+  }
+}
+
+---------------------------------------------------------------------------
 
   ANSWER : 10
 
